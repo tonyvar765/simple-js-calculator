@@ -12,9 +12,10 @@
     background: white;
     margin-left: 47px;
 }
-.result{
+#result{
     height: 100%;
     width: 100%;
+    pointer-events: none;
 }
 
 .btn{
