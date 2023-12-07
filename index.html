@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="main">
+        <div class="screen">
+            <input type="text" value="" readonly class="result">    
+
+        </div>
+        <div class="buttons">
+            <div class="row">
+                <button onclick="button()" class="btn">7</button>
+                <button onclick="button()" class="btn">8</button>
+                <button onclick="button()" class="btn">9</button>
+                <button onclick="button()" class="btn">+</button>
+
+            </div>
+            <div class="row">
+                <button onclick="button()" class="btn">4</button>
+                <button onclick="button()" class="btn">5</button>
+                <button onclick="button()" class="btn">6</button>
+                <button onclick="button()" class="btn">-</button>
+
+            </div>
+            <div class="row">
+                <button onclick="button()" class="btn">1</button>
+                <button onclick="button()" class="btn">2</button>
+                <button onclick="button()" class="btn">3</button>
+                <button onclick="button()" class="btn">X</button>
+
+
+            </div>
+            <div class="row">
+                <button onclick="button()" class="btn">/</button>
+                <button onclick="button()" class="btn">.</button>
+                <button onclick="button()" class="btn">clr</button>
+                <button onclick="button()" class="btn">=</button>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
